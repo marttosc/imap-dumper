@@ -30,7 +30,7 @@ $ python dump_imap.py -s SERVER [-p PORT] -u USERNAME [-P PASSWORD] [-r REMOTE_F
 ## Examples
 
 ```console
-python dump_imap.py -s imap.gmail.com -u your-email@gmail.com --list
+$ python dump_imap.py -s imap.gmail.com -u your-email@gmail.com --list
 $ python dump_imap.py -s imap.gmail.com -u your-email@gmail.com -r inbox -l /home/user/imap
 $ python dump_imap.py -s imap.gmail.com -u your-email@gmail.com -r inbox,inbox.documents -l /home/user/imap -d -t
 ```
